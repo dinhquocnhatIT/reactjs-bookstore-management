@@ -12,6 +12,11 @@ body {
   width: 80px;
   height: 90px;
 }
+.photo-lg{
+  width: 200px;
+  height: 210px;
+  border-radius: 5px;
+}
 
 .spinner{
   width: 60px;

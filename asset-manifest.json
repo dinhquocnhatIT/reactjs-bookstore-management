@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dinhquocnhatIT/reactjs-bookstore-management/static/css/main.2a20894c.css",
-    "main.js": "/dinhquocnhatIT/reactjs-bookstore-management/static/js/main.5913306d.js",
-    "static/media/fa-solid-900.ttf": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
-    "static/media/fa-brands-400.ttf": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
-    "static/media/fa-solid-900.woff2": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
-    "static/media/fa-brands-400.woff2": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
-    "static/media/fa-regular-400.ttf": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
-    "static/media/spinner.gif": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/spinner.f53aa23fcdfc7bd67f43.gif",
-    "static/media/fa-regular-400.woff2": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
-    "static/media/fa-v4compatibility.ttf": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
-    "static/media/fa-v4compatibility.woff2": "/dinhquocnhatIT/reactjs-bookstore-management/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
-    "index.html": "/dinhquocnhatIT/reactjs-bookstore-management/index.html",
-    "main.2a20894c.css.map": "/dinhquocnhatIT/reactjs-bookstore-management/static/css/main.2a20894c.css.map",
-    "main.5913306d.js.map": "/dinhquocnhatIT/reactjs-bookstore-management/static/js/main.5913306d.js.map"
+    "main.css": "/reactjs-bookstore-management/static/css/main.68bd1eb7.css",
+    "main.js": "/reactjs-bookstore-management/static/js/main.64212836.js",
+    "static/media/fa-solid-900.ttf": "/reactjs-bookstore-management/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/reactjs-bookstore-management/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/reactjs-bookstore-management/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/reactjs-bookstore-management/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/reactjs-bookstore-management/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/spinner.gif": "/reactjs-bookstore-management/static/media/spinner.f53aa23fcdfc7bd67f43.gif",
+    "static/media/fa-regular-400.woff2": "/reactjs-bookstore-management/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/reactjs-bookstore-management/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/reactjs-bookstore-management/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/reactjs-bookstore-management/index.html",
+    "main.68bd1eb7.css.map": "/reactjs-bookstore-management/static/css/main.68bd1eb7.css.map",
+    "main.64212836.js.map": "/reactjs-bookstore-management/static/js/main.64212836.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a20894c.css",
-    "static/js/main.5913306d.js"
+    "static/css/main.68bd1eb7.css",
+    "static/js/main.64212836.js"
   ]
 }

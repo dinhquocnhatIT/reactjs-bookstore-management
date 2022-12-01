@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+*{
+  font-size: 12px;
+}
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(171, 213, 249);
+}
+
+.photo-md{
+  width: 80px;
+  height: 90px;
+}
+
+.spinner{
+  width: 60px;
+  height: 60px;
+}

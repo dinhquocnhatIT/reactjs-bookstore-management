@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/css/main.5c69a958.css",
-    "main.js": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/js/main.4d8588c5.js",
+    "main.js": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/js/main.768f8b10.js",
     "static/media/fa-solid-900.ttf": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
     "static/media/fa-solid-900.woff2": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
@@ -13,10 +13,10 @@
     "static/media/fa-v4compatibility.woff2": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/dinhquocnhatIT/reactjs-bookstore-management.git/index.html",
     "main.5c69a958.css.map": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/css/main.5c69a958.css.map",
-    "main.4d8588c5.js.map": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/js/main.4d8588c5.js.map"
+    "main.768f8b10.js.map": "/dinhquocnhatIT/reactjs-bookstore-management.git/static/js/main.768f8b10.js.map"
   },
   "entrypoints": [
     "static/css/main.5c69a958.css",
-    "static/js/main.4d8588c5.js"
+    "static/js/main.768f8b10.js"
   ]
 }

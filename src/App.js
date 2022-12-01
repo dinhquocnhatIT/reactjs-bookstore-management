@@ -8,7 +8,7 @@ function App() {
     <>
     <Navbar/>
       <Routes>
-        <Route path='/' element={<BookList/>}/>
+        <Route path='/reactjs-bookstore-management/' element={<BookList/>}/>
       </Routes>
     </>
   );

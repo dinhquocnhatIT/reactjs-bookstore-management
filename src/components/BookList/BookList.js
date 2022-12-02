@@ -62,6 +62,7 @@ function BookList() {
         let deleteRes = await BookService.deleteBook(book.id);
         if(deleteRes.data) {
           let booksRes = await BookService.getBooks();
+          booksRes.data.sort((book1,book2) => book2.id - book1.id)
           toast.success(`${deleteRes.data.bookName} has been removed success!`,
                         {autoClose: 2*1000}
           )

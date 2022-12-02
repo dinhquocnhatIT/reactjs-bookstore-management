@@ -4,7 +4,7 @@ import sha1 from 'sha1'
 import { CLOUDINARY_UPLOAD_API_URL } from './common'
 import { CLOUDINARY_DESTROY_API_URL } from './common'
 
-const Unsigned_Uploading = "z6kahoev";
+const Unsigned_Uploading = "afymccpc";
 class FileHelper {
     static uploadImage(imageFile) {
         const formData = new FormData();

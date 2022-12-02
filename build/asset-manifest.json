@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactjs-bookstore-management/static/css/main.be12eb32.css",
-    "main.js": "/reactjs-bookstore-management/static/js/main.77e62688.js",
+    "main.js": "/reactjs-bookstore-management/static/js/main.adfdf563.js",
     "static/media/fa-solid-900.ttf": "/reactjs-bookstore-management/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/reactjs-bookstore-management/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
     "static/media/fa-solid-900.woff2": "/reactjs-bookstore-management/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
@@ -13,10 +13,10 @@
     "static/media/fa-v4compatibility.woff2": "/reactjs-bookstore-management/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/reactjs-bookstore-management/index.html",
     "main.be12eb32.css.map": "/reactjs-bookstore-management/static/css/main.be12eb32.css.map",
-    "main.77e62688.js.map": "/reactjs-bookstore-management/static/js/main.77e62688.js.map"
+    "main.adfdf563.js.map": "/reactjs-bookstore-management/static/js/main.adfdf563.js.map"
   },
   "entrypoints": [
     "static/css/main.be12eb32.css",
-    "static/js/main.77e62688.js"
+    "static/js/main.adfdf563.js"
   ]
 }

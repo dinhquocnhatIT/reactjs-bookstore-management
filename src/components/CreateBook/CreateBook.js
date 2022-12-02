@@ -99,7 +99,7 @@ function CreateBook() {
     setFileImg({ ...fileImg, uploading: true });
     let uploadRes = await FileHelper.uploadImage(fileImg.file);
     if (uploadRes.data) {
-      toast.success("Photo uploaded success !");
+      toast.success("Photo uploaded success !", {autoClose:1000});
       setFileImg({ ...fileImg, uploading: false });
       imageUrl= uploadRes.data.url
       setState({

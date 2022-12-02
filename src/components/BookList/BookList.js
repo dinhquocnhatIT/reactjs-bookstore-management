@@ -20,6 +20,7 @@ function BookList() {
       setState({ ...state, loading: true });
       async function getData() {
         let resBook = await BookService.getBooks();
+        resBook.data.sort((book1,book2) => book2.id - book1.id)
         setState({
           ...state,
           loading: false,
@@ -152,12 +153,12 @@ function BookList() {
                         </div>
                         <div className="col-md-1">
                           <div className="d-flex flex-column align-items-center">
-                            <button className="btn btn-warning btn-sm">
+                            <Link to={`/reactjs-bookstore-management/book/view/${book.id}`} className="btn btn-warning btn-sm">
                               <i className="fa fa-eye"></i>
-                            </button>
-                            <button className="btn btn-primary btn-sm my-3">
+                            </Link>
+                            <Link to={`/reactjs-bookstore-management/update/${book.id}`} className="btn btn-primary btn-sm my-3">
                               <i className="fa fa-edit"></i>
-                            </button>
+                            </Link>
                             <button className="btn btn-danger btn-sm" onClick={() => handleRemoveBook(book)}>
                               <i className="fa fa-trash"></i>
                             </button>

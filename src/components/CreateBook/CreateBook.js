@@ -6,6 +6,8 @@ import PublisherService from "./../../services/publisherService";
 import noBookPhoto from "../../assets/images/noBookPhoto.png";
 import BookService from "../../services/bookService";
 import FileHelper from "./../../services/fileHelper";
+import Helper from './../../services/helper';
+var imageUrl = ""
 function CreateBook() {
   //create state to get a obj book
   const [state, setState] = useState({
@@ -44,6 +46,14 @@ function CreateBook() {
       toast.error(error.message);
       setState({ ...state, loading: false, errorMessage: error.message });
     }
+    //cleanup function to clear image when back without create
+    return async () => {
+      if(imageUrl){
+        let filename = Helper.getFileName(imageUrl);
+        let destroyRes = await FileHelper.destroyImage(filename);
+      }
+    }
+
   }, []);
 
   //get input value by attribute "name" from input tag to set state value
@@ -91,6 +101,7 @@ function CreateBook() {
     if (uploadRes.data) {
       toast.success("Photo uploaded success !");
       setFileImg({ ...fileImg, uploading: false });
+      imageUrl= uploadRes.data.url
       setState({
         ...state,
         book: {
@@ -223,12 +234,18 @@ function CreateBook() {
                 <div className="row align-items-center mb-2">
                     <div className="col-md-3"></div>
                     <div className="col-md-9">
-                            <button type="submit" className="btn btn-success btn-sm me-2">Create</button>
-                            <Link to={/reactjs-bookstore-management/} className="btn btn-secondary btn-sm">Close</Link>
+                            <button type="submit" className="btn btn-success btn-md me-2">
+                            <i class="fa-solid fa-plus me-2"></i>
+                              Create</button>
+                            <Link to={"/reactjs-bookstore-management/"} className="btn btn-secondary btn-md">
+                            <i class="fa-solid fa-xmark me-2"></i>
+                              Close</Link>
                     </div>
                 </div>
               </form>
             </div>
+
+            {/* upload file model */}
             <div className="col-md-3">
               <div className="d-flex flex-column align-items-center justify-content-center">
                 <input
@@ -257,10 +274,13 @@ function CreateBook() {
                       role="status"
                       aria-hidden="true"
                     />
+                    
                     Uploading ...
                   </button>
                 ) : (
-                  <button className="btn btn-info btn-sm mt-1" onClick={handleUploadImage}>Upload</button>
+                  <button className="btn btn-info btn-md mt-1 text-white" onClick={handleUploadImage}>
+                    <i class="fa-solid fa-cloud-arrow-up me-2"></i>
+                    Upload</button>
                 )}
               </div>
             </div>
